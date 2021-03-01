@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Mdev\\Mdev\\Mdev.csproj": {}
+    "D:\\Mdev\\Mdev\\Mdev.csproj": {}
   },
   "projects": {
-    "d:\\Mdev\\Mdev\\Mdev.csproj": {
+    "D:\\Mdev\\Mdev\\Mdev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Mdev\\Mdev\\Mdev.csproj",
+        "projectUniqueName": "D:\\Mdev\\Mdev\\Mdev.csproj",
         "projectName": "Mdev",
-        "projectPath": "d:\\Mdev\\Mdev\\Mdev.csproj",
+        "projectPath": "D:\\Mdev\\Mdev\\Mdev.csproj",
         "packagesPath": "C:\\Users\\Secretm\\.nuget\\packages\\",
-        "outputPath": "d:\\Mdev\\Mdev\\obj\\",
+        "outputPath": "D:\\Mdev\\Mdev\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Secretm\\AppData\\Roaming\\NuGet\\NuGet.Config"
