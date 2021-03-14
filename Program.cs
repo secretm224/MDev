@@ -26,6 +26,19 @@ namespace Mdev
             return answer;
         }   
     }
+
+    public class Solution2{
+    public int[] solution(int n, int m) {
+        int _gcd = gcd(n,m);
+        int[] answer = new int[]{_gcd,n*m/_gcd};
+        return answer;
+    }
+    
+        public int gcd(int a , int b){
+            return (a%b == 0?b:gcd(b,a%b));
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -38,6 +51,11 @@ namespace Mdev
             string str2 = "-1234";
             int result2 = sol.solution(str2);
             Console.WriteLine(result2);
+
+            Solution2 sol2 = new Solution2();
+            int[] sol2_result = sol2.solution(4,12);
+            Console.WriteLine(sol2_result.ToString());
+
         }
     }
 }
