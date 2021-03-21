@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4KQWUhhhG+n+ueqQiYSauQ5gOvLBmsEVJ1KWQ1kgsTqumiS4J9a9HPDZgE/2zBxJ82UegtKdPjpP4tSCgOrkaw==",
+  "dgSpecHash": "As5YjMifeXDbrCrjsyGltVBR5XnZU3rG1xLM7Wo94pPMkP6UV+3U2gjaJ33bB6AzMOfMrZvgWky+qZbh+Ecvhw==",
   "success": true,
   "projectFilePath": "D:\\Mdev\\Mdev\\Mdev.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Secretm\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

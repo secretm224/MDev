@@ -1,4 +1,5 @@
 ﻿using System;
+using Newtonsoft.Json;
 
 namespace Mdev
 {
@@ -39,10 +40,30 @@ namespace Mdev
         }
     }
 
+    public class stringTest
+    {
+        public string TestMethod(string s){
+            string result = "";
+            string[] arr = s.Split(" ");
+            int[] rst = null;
+
+            if(arr.Length > 0){
+
+                rst = Array.ConvertAll(arr,t =>int.Parse(t));
+                Array.Sort(rst);  
+                result = rst[0].ToString() + " " + rst[rst.Length-1].ToString();
+            }
+            return result;
+
+        }    
+    }
+
+
     class Program
     {
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("Hello World!");
             Solution sol = new Solution();
             string str = "+1234";
@@ -55,7 +76,52 @@ namespace Mdev
             Solution2 sol2 = new Solution2();
             int[] sol2_result = sol2.solution(4,12);
             Console.WriteLine(sol2_result.ToString());
+            */
+
+            stringTest st = new stringTest();
+            string result = st.TestMethod("1 2 3 4");
+            Console.WriteLine(result);
+            int[]a = {1,2};
+            int[]b = {3,4};
+ 
+           int test =  arraytest(a,b);
+           Console.WriteLine(test);
+
+
+            Account account = new Account();
+            account.Name ="Moon";
+            account.Email ="secretm224@gmail.com";
+            account.DOB = new DateTime(1980, 2, 20, 0, 0, 0, DateTimeKind.Utc);
+
+            string json = JsonConvert.SerializeObject(account, Formatting.Indented);
+
+            Console.WriteLine(json);    
 
         }
+
+        public static int arraytest(int[]A , int[] B){
+
+            int answer = 0;
+             if(A.Length > 0 && B.Length > 0 && A.Length == B.Length){
+                for(int i=0; i< A.Length; i++){
+                   
+                        answer = answer + (A[i] * B[i]);
+                        Console.WriteLine(answer);
+                    
+                }
+            }
+            return answer;
+        }
+
+        public class Account
+        {
+            public string Name { get; set; }
+            public string Email { get; set; }
+            public DateTime DOB { get; set; }
+        }
+
+
+
+
     }
 }

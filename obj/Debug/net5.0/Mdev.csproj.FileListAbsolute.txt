@@ -14,3 +14,5 @@ D:\Mdev\Mdev\obj\Debug\net5.0\Mdev.dll
 D:\Mdev\Mdev\obj\Debug\net5.0\ref\Mdev.dll
 D:\Mdev\Mdev\obj\Debug\net5.0\Mdev.pdb
 D:\Mdev\Mdev\obj\Debug\net5.0\Mdev.genruntimeconfig.cache
+D:\Mdev\Mdev\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Mdev\Mdev\obj\Debug\net5.0\Mdev.csproj.CopyComplete
