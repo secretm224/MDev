@@ -119,9 +119,5 @@ namespace Mdev
             public string Email { get; set; }
             public DateTime DOB { get; set; }
         }
-
-
-
-
     }
 }
