@@ -1,5 +1,8 @@
 ﻿using System;
 using Newtonsoft.Json;
+using UtilityLibraries;
+using Skil;
+
 
 namespace Mdev
 {
@@ -99,7 +102,12 @@ namespace Mdev
             Console.WriteLine(json);    
             */
 
-            ProTestCase1("try hello world");
+            //ProTestCase1("try hello world");
+            string strs = "Teststring";
+            bool test = StringLibrary.StartsWithUpper(strs);
+            Console.WriteLine(test);
+            string str = "try hello world";
+            Skil_level_1.ProTestCase1(str);
         }
 
         public static int arraytest(int[]A , int[] B){
@@ -121,37 +129,6 @@ namespace Mdev
             public string Name { get; set; }
             public string Email { get; set; }
             public DateTime DOB { get; set; }
-        }
-
-        public static string ProTestCase1(string str)
-        {
-            string answer = "";
-            if(str != null){
-                if(str.IndexOf(' ') > -1){
-                    string[] temp = str.Split(' ');
-                    if(temp.Length > 0){
-                        for(int i = 0; i<temp.Length; i++){
-                            if(temp[i] != null){
-                                char[] char__arr = temp[i].ToCharArray();
-                                if(char__arr.Length > 0){
-                                    for(int j=0; j<char__arr.Length; j++){
-                                        if(j%2 ==0){
-                                            char__arr[j] = Char.ToUpper(char__arr[j]);     
-                                        }
-                                    }
-
-                                    Console.WriteLine(char__arr.ToString());
-                                    answer = answer + string.Join("",char__arr) + " ";
-
-                                }
-                            }
-                        }
-                    }
-                }    
-            }
-
-            Console.WriteLine(answer);
-            return answer;     
         }
 
     }
