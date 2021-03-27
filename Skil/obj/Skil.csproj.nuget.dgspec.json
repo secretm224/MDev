@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mdev\\Mdev\\Skil\\Skil.csproj": {}
+    "d:\\Mdev\\Mdev\\Skil\\Skil.csproj": {}
   },
   "projects": {
-    "D:\\Mdev\\Mdev\\Skil\\Skil.csproj": {
+    "d:\\Mdev\\Mdev\\Skil\\Skil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mdev\\Mdev\\Skil\\Skil.csproj",
+        "projectUniqueName": "d:\\Mdev\\Mdev\\Skil\\Skil.csproj",
         "projectName": "Skil",
-        "projectPath": "D:\\Mdev\\Mdev\\Skil\\Skil.csproj",
+        "projectPath": "d:\\Mdev\\Mdev\\Skil\\Skil.csproj",
         "packagesPath": "C:\\Users\\Secretm\\.nuget\\packages\\",
-        "outputPath": "D:\\Mdev\\Mdev\\Skil\\obj\\",
+        "outputPath": "d:\\Mdev\\Mdev\\Skil\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Secretm\\AppData\\Roaming\\NuGet\\NuGet.Config"

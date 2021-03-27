@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mdev\\Mdev\\StringLibrary\\StringLibrary.csproj": {}
+    "d:\\Mdev\\Mdev\\StringLibrary\\StringLibrary.csproj": {}
   },
   "projects": {
-    "D:\\Mdev\\Mdev\\StringLibrary\\StringLibrary.csproj": {
+    "d:\\Mdev\\Mdev\\StringLibrary\\StringLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mdev\\Mdev\\StringLibrary\\StringLibrary.csproj",
+        "projectUniqueName": "d:\\Mdev\\Mdev\\StringLibrary\\StringLibrary.csproj",
         "projectName": "StringLibrary",
-        "projectPath": "D:\\Mdev\\Mdev\\StringLibrary\\StringLibrary.csproj",
+        "projectPath": "d:\\Mdev\\Mdev\\StringLibrary\\StringLibrary.csproj",
         "packagesPath": "C:\\Users\\Secretm\\.nuget\\packages\\",
-        "outputPath": "D:\\Mdev\\Mdev\\StringLibrary\\obj\\",
+        "outputPath": "d:\\Mdev\\Mdev\\StringLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Secretm\\AppData\\Roaming\\NuGet\\NuGet.Config"
