@@ -108,6 +108,8 @@ namespace Mdev
             Console.WriteLine(test);
             string str = "try hello world";
             Skil_level_1.ProTestCase1(str);
+           // Skil_level_1.solution();
+
         }
 
         public static int arraytest(int[]A , int[] B){

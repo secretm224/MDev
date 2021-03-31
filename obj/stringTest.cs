@@ -8,10 +8,20 @@ namespace Mdev.obj
             if(arr.Length > 0){
                 Array.Sort(arr);  
                 result = arr[0].ToString() + " " + arr[arr.Length].ToString();
+                test _test = new test();
+                _test.x = 0;
+                
             }
             return result;
-
+             
         }    
+
+        public class test{
+            public int x;
+            public int y;
+
+
+        }
     }
 
     static void main(){

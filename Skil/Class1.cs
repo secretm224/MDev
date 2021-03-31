@@ -31,6 +31,41 @@ namespace Skil
             Console.WriteLine(answer);
             return answer;     
         }
+
+
+        public static int[] solution(int[,] v)
+        {
+            int[] answer={0,0};
+            
+            if(v.Length > 0){
+                Console.WriteLine("Test");        
+                for(int i=0; i< v.GetLength(0); i++){
+                    for(int j=0; j<v.GetLength(1); j++){
+                        
+                        
+                    }
+                }  
+            }
+            
+            System.Console.WriteLine("Hello C#");
+
+            return answer;
+        }
+
+
+        public class check {
+            public int x;
+            public int y;
+
+
+        }
+
+        
+
+
+
+
+
         
     }
 
