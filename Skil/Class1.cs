@@ -52,21 +52,6 @@ namespace Skil
             return answer;
         }
 
-
-        public class check {
-            public int x;
-            public int y;
-
-
-        }
-
-        
-
-
-
-
-
-        
     }
 
 }
